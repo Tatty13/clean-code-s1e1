@@ -40,10 +40,12 @@
   margin: 0;
   padding: 0px;
 }
-.task-item, .title {
+.task-item,
+.title {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 .btn {
