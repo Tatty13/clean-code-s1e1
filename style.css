@@ -48,6 +48,12 @@
 }
 
 .task-item {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   list-style: none;
 }
 
@@ -109,15 +115,6 @@ button {
 }
 
 /* Task list */
-.task-item {
-  overflow: hidden;
-  padding: 20px 0;
-  border-bottom: 1px solid #eee;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .task-item > * {
   vertical-align: middle;
