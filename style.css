@@ -47,8 +47,7 @@
   padding: 0px;
 }
 
-.task-item,
-.title {
+.task-item {
   list-style: none;
 }
 
@@ -72,8 +71,7 @@ button {
 }
 
 /* Heading */
-.title,
-.new-task-title {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
