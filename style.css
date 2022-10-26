@@ -58,7 +58,7 @@ button {
   flex-grow: 1;
 }
 
-.task-wrap {
+.new-task__wrap {
   display: flex;
 }
 
@@ -78,7 +78,7 @@ button {
 }
 
 /* Heading */
-.title {
+.section-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -106,12 +106,12 @@ button {
 }
 
 /* New Task */
-.new-task-title {
+.section-title_place_new-task {
   display: block;
   margin: 0 0 20px;
 }
 
-.new-task-input {
+.task-input_place_new-task {
   width: 318px;
 }
 
