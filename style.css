@@ -1,3 +1,9 @@
+/* reset styles */
+input,
+button {
+  outline: none;
+}
+
 /* Basic Style */
 .page {
   background-color: #f8f8f8;
@@ -32,6 +38,20 @@
   margin: 0 auto 0;
 }
 
+.btn {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #3a3a3a;
+}
+
 .task {
   width: 56%;
   display: inline-block;
@@ -55,25 +75,6 @@
   justify-content: space-between;
   align-items: center;
   list-style: none;
-}
-
-input,
-button {
-  outline: none;
-}
-
-.btn {
-  background: none;
-  border: 0px;
-  color: #888;
-  font-size: 15px;
-  width: 60px;
-  font-family: Lato, sans-serif;
-  cursor: pointer;
-}
-
-.btn:hover {
-  color: #3a3a3a;
 }
 
 /* Heading */
