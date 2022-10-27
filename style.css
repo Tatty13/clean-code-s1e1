@@ -38,7 +38,7 @@ button {
   margin: 0 auto 0;
 }
 
-.btn {
+.task__btn {
   background: none;
   border: 0px;
   color: #888;
@@ -48,7 +48,7 @@ button {
   cursor: pointer;
 }
 
-.btn:hover {
+.task__btn:hover {
   color: #3a3a3a;
 }
 
@@ -136,13 +136,13 @@ button {
   width: 226px;
 }
 
-.delete-img {
+.delete-btn__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete-img:hover {
+.delete-btn__img:hover {
   transform: rotateZ(0);
 }
 
