@@ -116,11 +116,6 @@ button {
 }
 
 /* Task list */
-
-.task-list__item > * {
-  vertical-align: middle;
-}
-
 .checkbox {
   margin: 0 10px;
 }
@@ -132,7 +127,7 @@ button {
   width: 226px;
 }
 
-.task-list__item > .task__content_mode_edit {
+.task__content_mode_edit {
   width: 226px;
 }
 
@@ -153,7 +148,7 @@ button {
 }
 
 /* Edit Task */
-.task-list__item .task__content_mode_edit {
+.task__content_mode_edit {
   display: none;
 }
 
