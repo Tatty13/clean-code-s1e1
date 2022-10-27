@@ -67,7 +67,7 @@ button {
   padding: 0px;
 }
 
-.task-item {
+.task-list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -117,7 +117,7 @@ button {
 
 /* Task list */
 
-.task-item > * {
+.task-list__item > * {
   vertical-align: middle;
 }
 
@@ -132,7 +132,7 @@ button {
   width: 226px;
 }
 
-.task-item > .task-input {
+.task-list__item > .task-input {
   width: 226px;
 }
 
@@ -147,21 +147,21 @@ button {
 }
 
 /* Completed */
-.completed-tasks .task-desc {
+.task-list_place_completed-tasks .task-desc {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.task-item .task-input {
+.task-list__item .task-input {
   display: none;
 }
 
-.edit-mode .task-input {
+.task-list__item_mode_edit .task-input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task-desc {
+.task-list__item_mode_edit .task-desc {
   display: none;
 }

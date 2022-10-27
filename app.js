@@ -10,8 +10,8 @@
 
 var taskInput=document.getElementById("new-task__input");//Add a new task.
 var addButton=document.querySelector(".new-task__btn");//first button
-var incompleteTaskHolder=document.getElementById("incomplete-tasks");//ul of #incomplete-tasks
-var completedTasksHolder=document.getElementById("completed-tasks");//completed-tasks
+var incompleteTaskHolder=document.querySelector(".task-list_place_incomplete-tasks");//ul of #incomplete-tasks
+var completedTasksHolder=document.querySelector(".task-list_place_completed-tasks");//completed-tasks
 
 
 //New task list item
@@ -32,7 +32,7 @@ var createNewTaskElement=function(taskString){
     var deleteButton=document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");//delete button image
 
-    listItem.className = 'task-item';
+    listItem.className = 'task-list__item';
 
     label.innerText=taskString;
     label.className='task task-desc';
@@ -89,7 +89,7 @@ var editTask=function(){
     var editInput=listItem.querySelector('input[type=text]');
     var label=listItem.querySelector("label");
     var editBtn=listItem.querySelector(".edit-btn");
-    var containsClass=listItem.classList.contains("edit-mode");
+    var containsClass=listItem.classList.contains("task-list__item_mode_edit");
     //If class of the parent is .edit-mode
     if(containsClass){
 
@@ -103,7 +103,7 @@ var editTask=function(){
     }
 
     //toggle .edit-mode on the parent.
-    listItem.classList.toggle("edit-mode");
+    listItem.classList.toggle("task-list__item_mode_edit");
 };
 
 
