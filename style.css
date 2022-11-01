@@ -150,7 +150,7 @@ button {
 }
 
 /* Edit Task */
-.task__content_mode_edit {
+.task__content_mode_edit:not(.task__content_place_new-task) {
   display: none;
 }
 
